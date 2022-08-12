@@ -3110,6 +3110,11 @@ vite-plugin-imp@^2.2.0:
     param-case "^3.0.4"
     pascal-case "^3.1.2"
 
+vite-plugin-rsw@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.npmjs.org/vite-plugin-rsw/-/vite-plugin-rsw-2.0.8.tgz#e13cb28904de69940cb308b2497fce5c39332cf5"
+  integrity sha512-x0ExBRUUIufg26BuvFGNn6bqSnfRWkqz6eNXz6IWFXB4N7NiyNIDRqzYp+GbLzKq8DwKfYPe1/9jy/fJ8gFJrw==
+
 vite-plugin-webpackchunkname@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/vite-plugin-webpackchunkname/-/vite-plugin-webpackchunkname-0.1.1.tgz#04e9056d59e6868b0311779d7e93bd5333118226"

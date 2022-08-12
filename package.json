@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "rsw build && tsc && vite build",
+    "rsw": "rsw",
     "preview": "vite preview",
     "lint:eslint": "eslint --fix --ext .js,.ts,.tsx ./src",
     "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,css,less,scss,html,md}\"",
@@ -40,6 +41,7 @@
     "vite": "^3.0.6",
     "vite-plugin-eslint": "^1.8.0",
     "vite-plugin-imp": "^2.2.0",
+    "vite-plugin-rsw": "^2.0.8",
     "vite-plugin-webpackchunkname": "^0.1.1"
   },
   "lint-staged": {

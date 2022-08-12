@@ -1,0 +1,16 @@
+name = "rsw"
+version = "0.1.0"
+
+interval = 50
+
+cli = "yarn"
+
+[new]
+
+using = "rsw"
+
+dir = "react_vite_wasm"
+
+[[crates]]
+link = true
+name = "@wasm/image"
